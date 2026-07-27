@@ -1,8 +1,4 @@
 
-# Single Page Portfolio
-
-This is a code bundle for Single Page Portfolio. The original project is available at https://www.figma.com/design/rM6ZTu2pA9i3jyYHIrIEGJ/Single-Page-Portfolio.
-
 ## Running the code
 
 Run `npm i` to install the dependencies.

@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { motion } from "motion/react";
-import { ArrowUpRight, Copy, Check, Phone, MapPin } from "lucide-react";
+import { ArrowUpRight, Copy, Check, Phone, MapPin, Linkedin } from "lucide-react";
 import { PROFILE } from "./data";
 
 const EMAIL = PROFILE.email;
@@ -63,6 +63,14 @@ export function Contact() {
             className="inline-flex items-center gap-2 text-sm uppercase tracking-[0.15em] text-foreground/70 transition-colors hover:text-primary"
           >
             <Phone size={15} /> {PROFILE.phone}
+          </a>
+          <a
+            href="https://www.linkedin.com/in/imam-hossain-234153214/"
+            target="_blank"
+            rel="noreferrer"
+            className="inline-flex items-center gap-2 text-sm uppercase tracking-[0.15em] text-foreground/70 transition-colors hover:text-primary"
+          >
+            <Linkedin size={15} /> LinkedIn
           </a>
           <span className="inline-flex items-center gap-2 text-sm uppercase tracking-[0.15em] text-foreground/70">
             <MapPin size={15} /> {PROFILE.location}

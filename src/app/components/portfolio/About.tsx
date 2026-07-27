@@ -14,7 +14,7 @@ export function About() {
           transition={{ duration: 0.7 }}
           className="lg:col-span-5"
         >
-          <div className="overflow-hidden rounded-2xl bg-secondary/20">
+          <div className="mx-auto max-w-[20rem] overflow-hidden rounded-[1.5rem] bg-secondary/20 sm:max-w-[24rem] lg:mx-0 lg:max-w-none">
             <ImageWithFallback
               src={portrait}
               alt="Imam Hossain"
@@ -37,9 +37,9 @@ export function About() {
             style={{ fontFamily: "var(--font-display)" }}
             className="text-[1.9rem] leading-[1.25] tracking-[-0.01em] sm:text-[2.4rem]"
           >
-            I'm an Architecture Technology graduate working as a
-            <span className="italic text-primary"> Junior Architect</span>,
-            focused on interiors that are as buildable as they are
+            Wanna be an inspiration for the world, for the people of all genarations. Working as a
+            <span className="italic text-primary"> Junior Architect</span>, I
+            craft interiors that are as buildable as they are
             <span className="italic text-primary"> beautiful</span>.
           </p>
           <p className="mt-6 max-w-xl leading-relaxed text-accent-foreground/75">

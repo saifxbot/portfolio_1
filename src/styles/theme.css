@@ -3,6 +3,7 @@
 :root {
   --font-size: 16px;
   --font-display: 'Fraunces', ui-serif, Georgia, serif;
+  --font-signature: 'Priestacy', 'Segoe Script', cursive;
   --font-sans: 'Archivo', ui-sans-serif, system-ui, sans-serif;
   --background: #f4efe6;
   --foreground: #211d17;

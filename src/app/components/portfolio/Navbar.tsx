@@ -21,7 +21,10 @@ export function Navbar() {
     >
       <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4 lg:px-10">
         <a href="#top" className="flex items-baseline gap-2">
-          <span style={{ fontFamily: "var(--font-display)" }} className="text-[1.35rem] italic tracking-tight">
+          <span
+            style={{ fontFamily: "var(--font-signature)" }}
+            className="text-[1.5rem] leading-none tracking-[0.02em] text-foreground sm:text-[1.7rem]"
+          >
             {PROFILE.name}
           </span>
           <span className="hidden text-[0.7rem] uppercase tracking-[0.25em] text-muted-foreground sm:inline">

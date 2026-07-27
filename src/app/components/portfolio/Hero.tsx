@@ -1,6 +1,7 @@
 import { motion } from "motion/react";
 import { ArrowDownRight } from "lucide-react";
 import { CAPABILITIES, PROFILE } from "./data";
+import portrait from "../../../imports/portrait.png";
 
 export function Hero() {
   return (
@@ -21,7 +22,7 @@ export function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 0.05 }}
             style={{ fontFamily: "var(--font-display)" }}
-            className="col-span-1 text-[3.2rem] leading-[0.95] tracking-[-0.02em] sm:text-[4.5rem] lg:col-span-9 lg:text-[6.5rem]"
+            className="col-span-1 text-[3.2rem] leading-[0.95] tracking-[-0.02em] sm:text-[4.5rem] lg:col-span-7 lg:text-[6.5rem]"
           >
             I shape spaces
             <br />
@@ -34,8 +35,13 @@ export function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 0.2 }}
-            className="col-span-1 lg:col-span-3"
+            className="col-span-1 lg:col-span-5"
           >
+            <img
+              src={portrait}
+              alt="Imam Hossain"
+              className="mb-6 w-full"
+            />
             <p className="text-base leading-relaxed text-muted-foreground">
               Architecture Technology graduate and Junior Architect at Sara
               Interior — turning plans into warm, buildable interiors.

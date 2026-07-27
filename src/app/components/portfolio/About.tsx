@@ -1,12 +1,10 @@
 import { motion } from "motion/react";
-import { ImageWithFallback } from "../figma/ImageWithFallback";
 import { EDUCATION, EXPERIENCE } from "./data";
-import portrait from "../../../imports/portrait.png";
 
 export function About() {
   return (
     <section id="about" className="bg-accent px-6 py-24 text-accent-foreground lg:px-10 lg:py-32">
-      <div className="mx-auto grid max-w-6xl grid-cols-1 gap-14 lg:grid-cols-12 lg:items-start">
+      <div className="mx-auto grid max-w-6xl grid-cols-1 gap-14 lg:items-start">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -74,21 +72,7 @@ export function About() {
           </div>
         </motion.div>
 
-        <motion.div
-          initial={{ opacity: 0, x: 20 }}
-          whileInView={{ opacity: 1, x: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.7 }}
-          className="lg:col-span-5 order-1 lg:order-2"
-        >
-          <div className="mx-auto max-w-[18rem] sm:max-w-[20rem] lg:mx-0 lg:max-w-[22rem] lg:ml-auto">
-            <ImageWithFallback
-              src={portrait}
-              alt="Imam Hossain"
-              className="aspect-[3/4] w-full object-top object-cover"
-            />
-          </div>
-        </motion.div>
+
       </div>
     </section>
   );

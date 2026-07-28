@@ -89,14 +89,14 @@ export const PROJECTS: Project[] = [
   {
     id: "hn-yousuf-residence",
     index: "04",
-    title: "HN Yousuf Residence",
+    title: "Yousuf Residence",
     category: "Residential · Bashundhara, Dhaka",
     year: "2026",
     description:
       "A detailed furniture layout plan for a residential apartment at Bashundhara — resolving room adjacencies, circulation and furniture placement for bedrooms, living, dining and service areas into a clear, buildable drawing.",
     modalDescription:
-      "The HN Yousuf Residence project involved producing a comprehensive furniture layout plan for a private apartment in Bashundhara, one of Dhaka’s most established residential neighbourhoods. The goal was to translate the client’s lifestyle requirements into a resolved, buildable drawing that a contractor could work directly from.\n\nThe layout addresses the full apartment — master bedroom, secondary bedrooms, living room, dining area, kitchen, and service zones — with each room planned individually and then tested against the whole to ensure adjacencies and circulation routes feel natural and unforced.\n\nThe master bedroom was given priority in terms of space allocation and furniture arrangement, with a layout that accommodates a king bed, wardrobe, dressing area, and side tables without the room feeling cluttered. Secondary bedrooms were planned with flexibility in mind, allowing for either a study-bedroom or a guest room configuration.\n\nThe living and dining zones were treated as a connected social space, with furniture positioned to encourage conversation while maintaining a clear visual separation between the two functions. The kitchen layout was resolved around the work triangle principle, keeping the cooking, washing, and storage zones within efficient reach of each other.\n\nAll drawings were produced in AutoCAD to a standard suitable for direct handover to the client and their construction team.",
-    image: hnYousufResidence,
+      "The Yousuf Residence project involved producing a comprehensive furniture layout plan for a private apartment in Bashundhara, one of Dhaka’s most established residential neighbourhoods. The goal was to translate the client’s lifestyle requirements into a resolved, buildable drawing that a contractor could work directly from.\n\nThe layout addresses the full apartment — master bedroom, secondary bedrooms, living room, dining area, kitchen, and service zones — with each room planned individually and then tested against the whole to ensure adjacencies and circulation routes feel natural and unforced.\n\nThe master bedroom was given priority in terms of space allocation and furniture arrangement, with a layout that accommodates a king bed, wardrobe, dressing area, and side tables without the room feeling cluttered. Secondary bedrooms were planned with flexibility in mind, allowing for either a study-bedroom or a guest room configuration.\n\nThe living and dining zones were treated as a connected social space, with furniture positioned to encourage conversation while maintaining a clear visual separation between the two functions. The kitchen layout was resolved around the work triangle principle, keeping the cooking, washing, and storage zones within efficient reach of each other.\n\nAll drawings were produced in AutoCAD to a standard suitable for direct handover to the client and their construction team.",
+    image: YousufResidence,
     facts: [
       { label: "Ceiling", value: "9′-2″" },
       { label: "Beam", value: "8′-0″" },
